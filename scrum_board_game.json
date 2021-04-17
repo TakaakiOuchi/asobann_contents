@@ -1,0 +1,201 @@
+{
+  "kit": {
+    "name": "scrum board game",
+    "label": "scrum board game",
+    "label_ja": "スクラムボードゲーム",
+    "height": "64px",
+    "width": "64px",
+    "boxAndComponents": {
+      "Description": null,
+      "Cards": [
+        "Number 02",
+        "Number 99"
+      ],
+      "Story Box": [
+        "Story 01",
+        "Story 02",
+        "Story 10"
+      ],
+      "PO Status": [
+        "PO Status1",
+        "PO Status2"
+      ]
+    },
+    "usedComponentNames": [
+      "Description",
+      "Cards",
+      "Number 02",
+      "Number 99",
+      "Story Box",
+      "Story 01",
+      "Story 02",
+      "Story 10",
+      "PO Status",
+      "PO Status1",
+      "PO Status2"
+    ]
+  },
+  "components": [
+    {
+      "name": "Description",
+      "text": "手札から昇順または降順にカードを場に出していきます。全員が手札を出し切ったら、全員の勝利です。\n・場には「1から↑」と「100から↓」の2枚があります。そこに、それぞれ小さい順・大きい順にカードを出せます\n・自分の手番では2枚以上出さないといけません。出せなくなったらそこで全員ゲームオーバーです。\n・場に出したのと同じ枚数、山札から手札に取ります\n・ちょうど10違うカードは、順序と逆に出せます\n・自分の手札を人に教えてはいけません。正確な数字がわかるような言い方も禁止です",
+      "text_ja": "100並べ\n手札から昇順または降順にカードを場に出していきます。全員が手札を出し切ったら、全員の勝利です。\n・場には「1から↑」と「100から↓」の2枚があります。そこに、それぞれ小さい順・大きい順にカードを出せます\n・自分の手番では2枚以上出さないといけません。出せなくなったらそこで全員ゲームオーバーです。\n・場に出したのと同じ枚数、山札から手札に取ります\n・ちょうど10違うカードは、順序と逆に出せます\n・自分の手札を人に教えてはいけません。正確な数字がわかるような言い方も禁止です",
+      "color": "darkkhaki",
+      "textColor": "black",
+      "handArea": false,
+      "top": "0px",
+      "left": "0px",
+      "height": "200px",
+      "width": "900px",
+      "draggable": true,
+      "resizable": true
+    },
+    {
+      "name": "Cards",
+      "color": "darkkhaki",
+      "top": "220px",
+      "left": "50px",
+      "height": "200px",
+      "width": "300px",
+      "draggable": true,
+      "flippable": false,
+      "traylike": true,
+      "cardistry": [
+        "spread out",
+        "collect",
+        "flip all",
+        "shuffle"
+      ]
+    },
+    {
+      "name": "Story Box",
+      "color": "darkkhaki",
+      "top": "220px",
+      "left": "400px",
+      "height": "400px",
+      "width": "600px",
+      "draggable": true,
+      "flippable": false,
+      "traylike": true,
+      "cardistry": [
+        "spread out",
+        "collect",
+        "flip all",
+        "shuffle"
+      ]
+    },
+    {
+      "name": "PO Status",
+      "color": "darkkhaki",
+      "top": "650px",
+      "left": "400px",
+      "height": "400px",
+      "width": "600px",
+      "draggable": true,
+      "flippable": false,
+      "traylike": true,
+      "cardistry": [
+        "spread out",
+        "collect",
+        "flip all",
+        "shuffle"
+      ]
+    },
+    {
+      "name": "Number 02",
+      "faceupText": "2",
+      "facedownText": "100\n並べ",
+      "color": "cyan",
+      "textColor": "black",
+      "top": "20px",
+      "left": "100px",
+      "height": "80px",
+      "width": "60px",
+      "draggable": true,
+      "flippable": true,
+      "faceup": false
+    },
+    {
+      "name": "Number 99",
+      "faceupText": "99",
+      "facedownText": "100\n並べ",
+      "color": "cyan",
+      "textColor": "black",
+      "top": "20px",
+      "left": "100px",
+      "height": "80px",
+      "width": "60px",
+      "draggable": true,
+      "flippable": true,
+      "faceup": false
+    },
+    {
+      "name": "Story 01",
+      "faceupText": "開発チームのメンバーが風邪を引いた。ペアプログラミングまたはモブプログラミングのスキルを持たない場合は、他のメンバーが代わりに作業を行えないため、開発チームの開発力　ー２。",
+      "facedownText": "Story",
+      "color": "red",
+      "textColor": "black",
+      "top": "20px",
+      "left": "100px",
+      "height": "160px",
+      "width": "360px",
+      "draggable": true,
+      "flippable": true,
+      "faceup": false
+    },
+    {
+      "name": "Story 02",
+      "faceupText": "モブプログラミングのセミナーを50万円支払ってチームで受けますか？受ける場合サイコロを振り、出目が3以上なら開発チームの開発力　＋１、コミュニケーション　＋１、さらに出目が５以上でモブプログラミングスキルを持たない場合はモブプログラミングスキルを得る。",
+      "facedownText": "Story",
+      "color": "orange",
+      "textColor": "black",
+      "top": "20px",
+      "left": "100px",
+      "height": "160px",
+      "width": "360px",
+      "draggable": true,
+      "flippable": true,
+      "faceup": false
+    },
+    {
+      "name": "Story 10",
+      "faceupText": "Story 10",
+      "facedownText": "Story",
+      "color": "cyan",
+      "textColor": "black",
+      "top": "20px",
+      "left": "100px",
+      "height": "160px",
+      "width": "360px",
+      "draggable": true,
+      "flippable": true,
+      "faceup": false
+    },
+    {
+      "name": "PO Status1",
+      "top": "0px",
+      "left": "0px",
+      "height": "64px",
+      "width": "96px",
+      "showImage": false,
+      "draggable": true,
+      "flippable": false,
+      "ownable": true,
+      "resizable": true,
+      "counter": true
+    },
+    {
+      "name": "PO Status2",
+      "top": "0px",
+      "left": "0px",
+      "height": "64px",
+      "width": "96px",
+      "showImage": false,
+      "draggable": true,
+      "flippable": false,
+      "ownable": true,
+      "resizable": true,
+      "counter": true
+    }
+  ]
+}
