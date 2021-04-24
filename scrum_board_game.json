@@ -7,32 +7,59 @@
     "width": "64px",
     "boxAndComponents": {
       "Description": null,
-      "Cards": [
-        "Number 02",
-        "Number 99"
+      "Planning Box": [
+        "Planning 01",
+        "Planning 02",
+        "Planning 10"
       ],
-      "Story Box": [
-        "Story 01",
-        "Story 02",
-        "Story 10"
+      "Development Box": [
+        "Development 01",
+        "Development 02",
+        "Development 10"
       ],
-      "PO Status": [
-        "PO Status1",
-        "PO Status2"
+      "Review Box": [
+        "Review 01"
+      ],
+      "Retrospective Box": [
+        "Retrospective 01"
+      ],
+      "PO1 Status": [
+        "PO1 Status1",
+        "PO1 Status2"
+      ],
+      "PO2 Status": [
+      ],
+      "PO3 Status": [
+      ],
+      "PO4 Status": [
+      ],
+      "Bank Box": [
+      ],
+      "Skill Box": [
       ]
     },
     "usedComponentNames": [
       "Description",
-      "Cards",
-      "Number 02",
-      "Number 99",
-      "Story Box",
-      "Story 01",
-      "Story 02",
-      "Story 10",
-      "PO Status",
-      "PO Status1",
-      "PO Status2"
+      "Planning Box",
+      "Planning 01",
+      "Planning 02",
+      "Planning 10",
+      "Development Box",
+      "Development 01",
+      "Development 02",
+      "Development 10",
+      "Review Box",
+      "Review 01",
+      "Retrospective Box",
+      "Retrospective 01",
+      "PO1 Status",
+      "PO1 Status1",
+      "PO1 Status2",
+      "PO2 Status",
+      "PO3 Status",
+      "PO4 Status",
+      "Bank Box",
+      "Skill Box"
     ]
   },
   "components": [
@@ -51,29 +78,124 @@
       "resizable": true
     },
     {
-      "name": "Cards",
+      "name": "Planning Box",
       "color": "darkkhaki",
       "top": "220px",
-      "left": "50px",
+      "left": "0px",
       "height": "200px",
+      "width": "500px",
+      "draggable": true,
+      "flippable": false,
+      "traylike": true,
+      "cardistry": [
+        "spread out",
+        "collect",
+        "flip all",
+        "shuffle"
+      ]
+    },
+    {
+      "name": "Development Box",
+      "color": "darkkhaki",
+      "top": "220px",
+      "left": "520px",
+      "height": "200px",
+      "width": "500px",
+      "draggable": true,
+      "flippable": false,
+      "traylike": true,
+      "cardistry": [
+        "spread out",
+        "collect",
+        "flip all",
+        "shuffle"
+      ]
+    },
+    {
+      "name": "Review Box",
+      "color": "darkkhaki",
+      "top": "930px",
+      "left": "0px",
+      "height": "200px",
+      "width": "500px",
+      "draggable": true,
+      "flippable": false,
+      "traylike": true,
+      "cardistry": [
+        "spread out",
+        "collect",
+        "flip all",
+        "shuffle"
+      ]
+    },
+    {
+      "name": "Retrospective Box",
+      "color": "darkkhaki",
+      "top": "930px",
+      "left": "520px",
+      "height": "200px",
+      "width": "500px",
+      "draggable": true,
+      "flippable": false,
+      "traylike": true,
+      "cardistry": [
+        "spread out",
+        "collect",
+        "flip all",
+        "shuffle"
+      ]
+    },
+    {
+      "name": "PO1 Status",
+      "color": "darkkhaki",
+      "top": "520px",
+      "left": "0px",
+      "height": "400px",
       "width": "300px",
       "draggable": true,
       "flippable": false,
-      "traylike": true,
-      "cardistry": [
-        "spread out",
-        "collect",
-        "flip all",
-        "shuffle"
-      ]
+      "traylike": true
     },
     {
-      "name": "Story Box",
+      "name": "PO2 Status",
       "color": "darkkhaki",
-      "top": "220px",
-      "left": "400px",
+      "top": "520px",
+      "left": "310px",
       "height": "400px",
-      "width": "600px",
+      "width": "300px",
+      "draggable": true,
+      "flippable": false,
+      "traylike": true
+    },
+    {
+      "name": "PO3 Status",
+      "color": "darkkhaki",
+      "top": "520px",
+      "left": "620px",
+      "height": "400px",
+      "width": "300px",
+      "draggable": true,
+      "flippable": false,
+      "traylike": true
+    },
+    {
+      "name": "PO4 Status",
+      "color": "darkkhaki",
+      "top": "520px",
+      "left": "930px",
+      "height": "400px",
+      "width": "300px",
+      "draggable": true,
+      "flippable": false,
+      "traylike": true
+    },
+    {
+      "name": "Bank Box",
+      "color": "darkkhaki",
+      "top": "430px",
+      "left": "0px",
+      "height": "80px",
+      "width": "500px",
       "draggable": true,
       "flippable": false,
       "traylike": true,
@@ -85,12 +207,12 @@
       ]
     },
     {
-      "name": "PO Status",
+      "name": "Skill Box",
       "color": "darkkhaki",
-      "top": "650px",
-      "left": "400px",
-      "height": "400px",
-      "width": "600px",
+      "top": "430px",
+      "left": "520px",
+      "height": "80px",
+      "width": "500px",
       "draggable": true,
       "flippable": false,
       "traylike": true,
@@ -102,37 +224,9 @@
       ]
     },
     {
-      "name": "Number 02",
-      "faceupText": "2",
-      "facedownText": "100\n並べ",
-      "color": "cyan",
-      "textColor": "black",
-      "top": "20px",
-      "left": "100px",
-      "height": "80px",
-      "width": "60px",
-      "draggable": true,
-      "flippable": true,
-      "faceup": false
-    },
-    {
-      "name": "Number 99",
-      "faceupText": "99",
-      "facedownText": "100\n並べ",
-      "color": "cyan",
-      "textColor": "black",
-      "top": "20px",
-      "left": "100px",
-      "height": "80px",
-      "width": "60px",
-      "draggable": true,
-      "flippable": true,
-      "faceup": false
-    },
-    {
-      "name": "Story 01",
+      "name": "Planning 01",
       "faceupText": "開発チームのメンバーが風邪を引いた。ペアプログラミングまたはモブプログラミングのスキルを持たない場合は、他のメンバーが代わりに作業を行えないため、開発チームの開発力　ー２。",
-      "facedownText": "Story",
+      "facedownText": "Planning",
       "color": "red",
       "textColor": "black",
       "top": "20px",
@@ -144,9 +238,9 @@
       "faceup": false
     },
     {
-      "name": "Story 02",
+      "name": "Planning 02",
       "faceupText": "モブプログラミングのセミナーを50万円支払ってチームで受けますか？受ける場合サイコロを振り、出目が3以上なら開発チームの開発力　＋１、コミュニケーション　＋１、さらに出目が５以上でモブプログラミングスキルを持たない場合はモブプログラミングスキルを得る。",
-      "facedownText": "Story",
+      "facedownText": "Planning",
       "color": "orange",
       "textColor": "black",
       "top": "20px",
@@ -158,9 +252,9 @@
       "faceup": false
     },
     {
-      "name": "Story 10",
-      "faceupText": "Story 10",
-      "facedownText": "Story",
+      "name": "Planning 10",
+      "faceupText": "Planning 10",
+      "facedownText": "Planning",
       "color": "cyan",
       "textColor": "black",
       "top": "20px",
@@ -172,7 +266,77 @@
       "faceup": false
     },
     {
-      "name": "PO Status1",
+      "name": "Development 01",
+      "faceupText": "開発チームのメンバーが風邪を引いた。ペアプログラミングまたはモブプログラミングのスキルを持たない場合は、他のメンバーが代わりに作業を行えないため、開発チームの開発力　ー２。",
+      "facedownText": "Development",
+      "color": "red",
+      "textColor": "black",
+      "top": "20px",
+      "left": "100px",
+      "height": "160px",
+      "width": "360px",
+      "draggable": true,
+      "flippable": true,
+      "faceup": false
+    },
+    {
+      "name": "Development 02",
+      "faceupText": "モブプログラミングのセミナーを50万円支払ってチームで受けますか？受ける場合サイコロを振り、出目が3以上なら開発チームの開発力　＋１、コミュニケーション　＋１、さらに出目が５以上でモブプログラミングスキルを持たない場合はモブプログラミングスキルを得る。",
+      "facedownText": "Development",
+      "color": "orange",
+      "textColor": "black",
+      "top": "20px",
+      "left": "100px",
+      "height": "160px",
+      "width": "360px",
+      "draggable": true,
+      "flippable": true,
+      "faceup": false
+    },
+    {
+      "name": "Development 10",
+      "faceupText": "Development 10",
+      "facedownText": "Development",
+      "color": "cyan",
+      "textColor": "black",
+      "top": "20px",
+      "left": "100px",
+      "height": "160px",
+      "width": "360px",
+      "draggable": true,
+      "flippable": true,
+      "faceup": false
+    },
+    {
+      "name": "Review 01",
+      "faceupText": "開発チームのメンバーが風邪を引いた。ペアプログラミングまたはモブプログラミングのスキルを持たない場合は、他のメンバーが代わりに作業を行えないため、開発チームの開発力　ー２。",
+      "facedownText": "Review",
+      "color": "red",
+      "textColor": "black",
+      "top": "20px",
+      "left": "100px",
+      "height": "160px",
+      "width": "360px",
+      "draggable": true,
+      "flippable": true,
+      "faceup": false
+    },
+    {
+      "name": "Retrospective 01",
+      "faceupText": "開発チームのメンバーが風邪を引いた。ペアプログラミングまたはモブプログラミングのスキルを持たない場合は、他のメンバーが代わりに作業を行えないため、開発チームの開発力　ー２。",
+      "facedownText": "Retrospective",
+      "color": "red",
+      "textColor": "black",
+      "top": "20px",
+      "left": "100px",
+      "height": "160px",
+      "width": "360px",
+      "draggable": true,
+      "flippable": true,
+      "faceup": false
+    },
+    {
+      "name": "PO1 Status1",
       "top": "0px",
       "left": "0px",
       "height": "64px",
@@ -185,8 +349,8 @@
       "counter": true
     },
     {
-      "name": "PO Status2",
-      "top": "0px",
+      "name": "PO1 Status2",
+      "top": "100px",
       "left": "0px",
       "height": "64px",
       "width": "96px",
